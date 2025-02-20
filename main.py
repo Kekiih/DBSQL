@@ -39,7 +39,7 @@ def agregar_usuario():
         cursor.execute(sql, (nombre, int(edad)))
         conexion.commit()
         print("\nUsuario agregado correctamente.")
-        cursor.close()
+        cursor.close()#bueee
         conexion.close()
     else:
         print("\nError: El nombre no puede estar vacío y la edad debe ser un número válido.")
